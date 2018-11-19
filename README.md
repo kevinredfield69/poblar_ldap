@@ -1,18 +1,8 @@
 # POBLAR EL LDAP DESDE UN FICHERO CSV
 
-* Crear entre todos los alumnos de la clase un fichero CSV que incluya información personal de cada uno incluyendo los siguientes datos:
+* Crear entre todos los alumnos de la clase un fichero CSV que incluya información personal de cada uno incluyendo los siguientes datos: Nombre, Apellidos, Dirección de correo electrónico, Nombre de usuario y Clave pública ssh
 
-	** Nombre
-        ** Apellidos
-        ** Dirección de correo electrónico
-        ** Nombre de usuario
-        ** Clave pública ssh
-
-* Añadir otro fichero con la información de las máquinas de los alumnos:
-
-	** Hostname
-        ** IPv4
-        ** Clave pública ssh de la máquina
+* Añadir otro fichero con la información de las máquinas de los alumnos: Hostname, IPv4 y Clave pública ssh de la máquina.
 
 * Añadir el esquema openssh-lpk al directorio para poder incluir claves públicas ssh en un directorio LDAP.
 
